@@ -4,7 +4,7 @@ const directoryPath = "download";
 
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
-    console.error("Ocorreu um erro ao ler o diretório:"", err);
+    console.error("Ocorreu um erro ao ler o diretório:", err);
 
     return;
   }
