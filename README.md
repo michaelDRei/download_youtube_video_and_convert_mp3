@@ -49,5 +49,10 @@ node src/convert_mp3.js
 
 O arquivo MP3 será gerado no diretório **download/mp3** do projeto.
 
+Se quiser excluir os vídeos baixados, todos de uma só vez:
+
+```bash
+node src/delete_videos.js
+```
 
 Desta forma, você pode usar o **download_youtube_video** para baixar vídeos do YouTube e converter para o formato MP3 de forma fácil e conveniente. Aproveite!
